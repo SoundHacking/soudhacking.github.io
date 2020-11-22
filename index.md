@@ -1,17 +1,34 @@
-The idea is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
+The idea behind the [Sound Hacking](https://github.com/SoundHacking) github organisation is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
-## Real time Audio
-Smart applications are ones that instantly react to the user either in collaborative interactive way or in assistive tracking mode.
-Therefore real-time processing is a mandatory aspect for such applications
+# Topics
+## Offline Preparation
+The Offline preparation is a necessary step to understand the signal and condition it for the target application where it will be used, that's where Python with its scientific toolkits and machine learning environment will be used.
+* Signal Analysis
+* Machine Learning
+
+## Real Time Processing
+Smart applications are ones that instantly react to the user in an interactive, collaborative or assistive mode such as during tracking.
+Therefore an instant response of the system is what creates a feeling of connection with the instrument.
+
+Real time Audio processing requires dedicated hardware acceleration to prevent delays. 
 
 ## Capture
-From Audio capture with I2S microphone arrays connected in microcontrollers to any sort of user input capture that is to be used to impact sound generation
+It's about capture of audio and other user inputs. Audio goes through  I2S microphone arrays connected to microcontrollers. Other user inputs can be accelerometer or touch interfaces that are to be used as control for sound generation
+* Microphones
+* Accelerometers
+* smart touch surface
+* USB interfaces (Audio / HID / Serial Data)
 
-## Processing
-Requires hardware acceleration as all the flow is expected to run on the fly. A part of the samples relates to the analysis and learning though, that's where Python is used.
+## Display
+The output should not only be hearable as a sound signal but also visual in order to assist the interaction.
+* webapp view of live audio signal
+* Status feedback through LEDs
 
-## Microcontroller
-* STM32 based on ARM-M4 with USB connections
+## Microcontrollers
+* STM32 based on ARM-M4 with USB connections and other I2S peripherals
+    * Black pill : STM32F411 (USB)
+    * Audio Discovery : STM32F407 (USB, stereo out)
+    * DevEBox : STM32F407 (USB, SDCARD)
 * ESP32 (wifi / BT)
 * nRF52 (custom RF / BT)
 
