@@ -1,9 +1,9 @@
-The idea behind the [Sound Hacking](https://github.com/SoundHacking) github organisation is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
+The idea behind the [Sound Hacking github organisation](https://github.com/SoundHacking) is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
 # Discord channel
 <img src="./media/discord.png" href="https://discord.gg/XqrgAQ72" target="_blank" width=100>
 
-* invitation to the discord channel : https://discord.gg/XqrgAQ72
+* invitation to the [Sound Hacking discord channel](https://discord.gg/XqrgAQ72)
 * A place to ask questions and make suggestions
 
 # Topics
