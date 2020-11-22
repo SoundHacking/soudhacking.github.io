@@ -1,5 +1,11 @@
 The idea behind the [Sound Hacking](https://github.com/SoundHacking) github organisation is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
+# Discord channel
+<img src="./media/discord.png" href="https://discord.gg/XqrgAQ72" target="_blank" width=100>
+
+* invitation to the discord channel : https://discord.gg/XqrgAQ72
+* A place to ask questions and make suggestions
+
 # Topics
 ## Offline Preparation
 The Offline preparation is a necessary step to understand the signal and condition it for the target application where it will be used, that's where Python with its scientific toolkits and machine learning environment will be used.
@@ -39,6 +45,7 @@ The output should not only be hearable as a sound signal but also visual in orde
 * Test Audio input and output
 * connect inputs to outputs
 * process the live stream between input and output
+* generate tone
 
 ### dependencies
 
