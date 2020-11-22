@@ -1,5 +1,11 @@
 The idea behind the [Sound Hacking github organisation](https://github.com/SoundHacking) is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
+# Interactive sound
+* inputs in microcontrollers for preprocessing interface to PC for further processing.
+* it's also possible to have microcontroller standalone applications
+
+<img src="./media/goal.png">
+
 # Discord channel
 <img src="./media/discord.png" href="https://discord.gg/XqrgAQ72" target="_blank" width=100>
 
