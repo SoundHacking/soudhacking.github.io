@@ -1,10 +1,16 @@
 The idea behind the [Sound Hacking github organisation](https://github.com/SoundHacking) is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
-# Interactive sound
+
+## Interactive sound input
 * inputs in microcontrollers for preprocessing interface to PC for further processing.
 * it's also possible to have microcontroller standalone applications
 
 <img src="./media/goal.png">
+
+## Debug workflow
+* it's possible to debug an embedded sound processing system by injecting packets and retreiving the results
+
+<img src="./media/usb_cdc_test.png" width="500">
 
 # Discord channel
 <img src="./media/discord.png" href="https://discord.gg/XqrgAQ72" target="_blank" width=100>
