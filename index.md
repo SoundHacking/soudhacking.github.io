@@ -48,11 +48,11 @@ The output should not only be hearable as a sound signal but also visual in orde
 
 ## [see sound](https://github.com/SoundHacking/see_sound)
 * a web app framework to see the sound in different forms
-* No display available yet
+* real-time analysis of played audio
 * Playing sound with html5 [web Audio API](https://www.w3.org/TR/webaudio/)
 * [Live demo](https://soundhacking.github.io/see_sound/)
 
-<img src="./media/play.png" width=400>
+<img src="./media/wave_freq.png" width=600>
 
 ## [librosa_demo](https://github.com/SoundHacking/librosa_demo)
 * Jupyter notebooks to showcase librosa functions
