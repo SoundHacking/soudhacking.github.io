@@ -13,10 +13,10 @@ The idea behind the [Sound Hacking github organisation](https://github.com/Sound
 <img src="./media/usb_cdc_test.png" width="500">
 
 # Discord channel
-<img src="./media/discord.png" href="https://discord.gg/XqrgAQ72" target="_blank" width=100>
+<img src="./media/discord.png" href="https://discord.gg/57cZapWHkC" target="_blank" width=100>
 
-* invitation to the [Sound Hacking discord channel](https://discord.gg/XqrgAQ72)
-* A place to ask questions and make suggestions
+* invitation to the [Sound Hacking discord server](https://discord.gg/57cZapWHkC)
+* A place to ask questions, make suggestions and see posts about the progress
 
 # Topics
 ## Offline Preparation
