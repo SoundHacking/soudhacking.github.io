@@ -58,7 +58,7 @@ Microcontrollers in scope :
 * nRF52 (custom RF / BT)
 
 Example integration of cubemx with pio :
-* https://github.com/STM32Libs/f411_piocube_lib_blink
+* [f411_piocube_lib_blink](https://github.com/STM32Libs/f411_piocube_lib_blink)
 # Repositories
 
 ## [pystream](https://github.com/SoundHacking/pystream)
