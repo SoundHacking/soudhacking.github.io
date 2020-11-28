@@ -8,7 +8,7 @@ The idea behind the [Sound Hacking github organisation](https://github.com/Sound
 <img src="./media/goal.png">
 
 ## Debug workflow
-* it's possible to debug an embedded sound processing system by injecting packets and retreiving the results
+* it's possible to debug an embedded sound processing system by injecting packets and retrieving  the results
 
 <img src="./media/usb_cdc_test.png" width="500">
 
@@ -43,13 +43,22 @@ The output should not only be hearable as a sound signal but also visual in orde
 * Status feedback through LEDs
 
 ## Microcontrollers
-* STM32 based on ARM-M4 with USB connections and other I2S peripherals
+<img src="./media/hardware.png" width=800>
+
+* MEMS microphones : [SPH0645](https://cdn-reichelt.de/documents/datenblatt/A300/DEBO_MEMS_MIC_DB_EN.pdf)
+* [STM32F407VGT6](https://stm32-base.org/boards/STM32F407VGT6-STM32F4XX-M.html)
+
+Microcontrollers in scope :
+
+* STM32 based on ARM-M4
     * Black pill : STM32F411 (USB)
     * Audio Discovery : STM32F407 (USB, stereo out)
     * DevEBox : STM32F407 (USB, SDCARD)
 * ESP32 (wifi / BT)
 * nRF52 (custom RF / BT)
 
+Example integration of cubemx with pio :
+* https://github.com/STM32Libs/f411_piocube_lib_blink
 # Repositories
 
 ## [pystream](https://github.com/SoundHacking/pystream)
