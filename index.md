@@ -1,5 +1,6 @@
 ---
-sort: 1
+layout: page
+order: 1
 ---
 
 # Sound hacking readme
