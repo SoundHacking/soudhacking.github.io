@@ -1,12 +1,11 @@
 ---
-title: Sound hacking readme
-sidebar: toc
 sort: 1
 ---
 
+# Sound hacking readme
+
 The idea behind the [Sound Hacking github organisation](https://github.com/SoundHacking) is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
-# Sound hacking readme
 ## Interactive sound input
 * inputs in microcontrollers for preprocessing interface to PC for further processing.
 * it's also possible to have microcontroller standalone applications
