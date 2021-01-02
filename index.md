@@ -1,9 +1,3 @@
----
-layout: page
-sort: 1
----
-
-# Sound hacking readme
 
 The idea behind the [Sound Hacking github organisation](https://github.com/SoundHacking) is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
 
