@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.79.1" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The idea behind the Sound Hacking github organisation is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
+Interactive sound input# inputs in microcontrollers for preprocessing interface to PC for further processing. it&rsquo;s also possible to have microcontroller standalone applications  Debug workflow# it&rsquo;s possible to debug an embedded sound processing system by injecting packets and retrieving the results  Discord channel# invitation to the Sound Hacking discord server A place to ask questions, make suggestions and see posts about the progress  Topics#Offline Preparation#The Offline preparation is a necessary step to understand the signal and condition it for the target application where it will be used, that&rsquo;s where Python with its scientific toolkits and machine learning environment will be used.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="The idea behind the Sound Hacking github organisation is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.
+Interactive sound input# inputs in microcontrollers for preprocessing interface to PC for further processing. it&rsquo;s also possible to have microcontroller standalone applications  Debug workflow# it&rsquo;s possible to debug an embedded sound processing system by injecting packets and retrieving the results  Discord channel# invitation to the Sound Hacking discord server A place to ask questions, make suggestions and see posts about the progress  Topics#Offline Preparation#The Offline preparation is a necessary step to understand the signal and condition it for the target application where it will be used, that&rsquo;s where Python with its scientific toolkits and machine learning environment will be used." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://soundhacking.github.io/" />
+
+<title>Index | Sound Hacking</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.134b70e5316650a530cb42e4e8630b2a01d532bebfc0337028211175336e4806.css" integrity="sha256-E0tw5TFmUKUwy0Lk6GMLKgHVMr6/wDNwKCERdTNuSAY=">
+<script defer src="/en.search.min.f20d529dde5dca240e57426b020aa9efcd466dba962b69e90c20bd8a392c3427.js" integrity="sha256-8g1Snd5dyiQOV0JrAgqp781GbbqWK2npDCC9ijksNCc="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Sound Hacking</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <script src="/js/stl_viewer/stl_viewer.min.js"></script>
+<script src="/js/svg-pan-zoom.min.js"></script>
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Index</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#interactive-sound-input">Interactive sound input</a></li>
+    <li><a href="#debug-workflow">Debug workflow</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#offline-preparation">Offline Preparation</a></li>
+    <li><a href="#real-time-processing">Real Time Processing</a></li>
+    <li><a href="#capture">Capture</a></li>
+    <li><a href="#display">Display</a></li>
+    <li><a href="#microcontrollers">Microcontrollers</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#pystreamhttpsgithubcomsoundhackingpystream"><a href="https://github.com/SoundHacking/pystream">pystream</a></a>
+      <ul>
+        <li><a href="#dependencies">dependencies</a></li>
+      </ul>
+    </li>
+    <li><a href="#see-soundhttpsgithubcomsoundhackingsee_sound"><a href="https://github.com/SoundHacking/see_sound">see sound</a></a></li>
+    <li><a href="#librosa_demohttpsgithubcomsoundhackinglibrosa_demo"><a href="https://github.com/SoundHacking/librosa_demo">librosa_demo</a></a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>The idea behind the <a href="https://github.com/SoundHacking">Sound Hacking github organisation</a> is to take advantage of the latest advances of Machine learning and Audio processing to create innovative applications.</p>
+<h2 id="interactive-sound-input">
+  Interactive sound input
+  <a class="anchor" href="#interactive-sound-input">#</a>
+</h2>
+<ul>
+<li>inputs in microcontrollers for preprocessing interface to PC for further processing.</li>
+<li>it&rsquo;s also possible to have microcontroller standalone applications</li>
+</ul>
+
+
+
+
+<div class="text-center">
+  <img
+    src="/images/goal.png"
+    alt=""
+    width=""
+    decoding="async"
+  />
+</div>
+
+<h2 id="debug-workflow">
+  Debug workflow
+  <a class="anchor" href="#debug-workflow">#</a>
+</h2>
+<ul>
+<li>it&rsquo;s possible to debug an embedded sound processing system by injecting packets and retrieving  the results</li>
+</ul>
+
+
+
+
+<div class="text-center">
+  <img
+    src="/images/usb_cdc_test.png"
+    alt=""
+    width="500"
+    decoding="async"
+  />
+</div>
+
+<h1 id="discord-channel">
+  Discord channel
+  <a class="anchor" href="#discord-channel">#</a>
+</h1>
+
+
+<div class="text-center">
+    <iframe src="https://discord.com/widget?id=780126809671991328&amp;theme=dark" width="350" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</div>
+
+<ul>
+<li>invitation to the <a href="https://discord.gg/57cZapWHkC">Sound Hacking discord server</a></li>
+<li>A place to ask questions, make suggestions and see posts about the progress</li>
+</ul>
+<h1 id="topics">
+  Topics
+  <a class="anchor" href="#topics">#</a>
+</h1>
+<h2 id="offline-preparation">
+  Offline Preparation
+  <a class="anchor" href="#offline-preparation">#</a>
+</h2>
+<p>The Offline preparation is a necessary step to understand the signal and condition it for the target application where it will be used, that&rsquo;s where Python with its scientific toolkits and machine learning environment will be used.</p>
+<ul>
+<li>Signal Analysis</li>
+<li>Machine Learning</li>
+</ul>
+<h2 id="real-time-processing">
+  Real Time Processing
+  <a class="anchor" href="#real-time-processing">#</a>
+</h2>
+<p>Smart applications are ones that instantly react to the user in an interactive, collaborative or assistive mode such as during tracking.
+Therefore an instant response of the system is what creates a feeling of connection with the instrument.</p>
+<p>Real time Audio processing requires dedicated hardware acceleration to prevent delays.</p>
+<h2 id="capture">
+  Capture
+  <a class="anchor" href="#capture">#</a>
+</h2>
+<p>It&rsquo;s about capture of audio and other user inputs. Audio goes through  I2S microphone arrays connected to microcontrollers. Other user inputs can be accelerometer or touch interfaces that are to be used as control for sound generation</p>
+<ul>
+<li>Microphones</li>
+<li>Accelerometers</li>
+<li>smart touch surface</li>
+<li>USB interfaces (Audio / HID / Serial Data)</li>
+</ul>
+<h2 id="display">
+  Display
+  <a class="anchor" href="#display">#</a>
+</h2>
+<p>The output should not only be hearable as a sound signal but also visual in order to assist the interaction.</p>
+<ul>
+<li>webapp view of live audio signal</li>
+<li>Status feedback through LEDs</li>
+</ul>
+<h2 id="microcontrollers">
+  Microcontrollers
+  <a class="anchor" href="#microcontrollers">#</a>
+</h2>
+
+
+
+
+<div class="text-center">
+  <img
+    src="/images/hardware.png"
+    alt=""
+    width="800"
+    decoding="async"
+  />
+</div>
+
+<ul>
+<li>MEMS microphones : <a href="https://cdn-reichelt.de/documents/datenblatt/A300/DEBO_MEMS_MIC_DB_EN.pdf">SPH0645</a></li>
+<li><a href="https://stm32-base.org/boards/STM32F407VGT6-STM32F4XX-M.html">STM32F407VGT6</a></li>
+</ul>
+<p>Microcontrollers in scope :</p>
+<ul>
+<li>STM32 based on ARM-M4
+<ul>
+<li>Black pill : STM32F411 (USB)</li>
+<li>Audio Discovery : STM32F407 (USB, stereo out)</li>
+<li>DevEBox : STM32F407 (USB, SDCARD)</li>
+</ul>
+</li>
+<li>ESP32 (wifi / BT)</li>
+<li>nRF52 (custom RF / BT)</li>
+</ul>
+<p>Example integration of cubemx with pio :</p>
+<ul>
+<li><a href="https://github.com/STM32Libs/f411_piocube_lib_blink">f411_piocube_lib_blink</a></li>
+</ul>
+<h1 id="repositories">
+  Repositories
+  <a class="anchor" href="#repositories">#</a>
+</h1>
+<h2 id="pystreamhttpsgithubcomsoundhackingpystream">
+  <a href="https://github.com/SoundHacking/pystream">pystream</a>
+  <a class="anchor" href="#pystreamhttpsgithubcomsoundhackingpystream">#</a>
+</h2>
+<ul>
+<li>List audio devices</li>
+<li>Test Audio input and output</li>
+<li>connect inputs to outputs</li>
+<li>process the live stream between input and output</li>
+<li>generate tone</li>
+</ul>
+<h3 id="dependencies">
+  dependencies
+  <a class="anchor" href="#dependencies">#</a>
+</h3>
+<ul>
+<li>matplotlib</li>
+<li>numpy</li>
+<li><a href="https://python-sounddevice.readthedocs.io/">sounddevice</a></li>
+</ul>
+<h2 id="see-soundhttpsgithubcomsoundhackingsee_sound">
+  <a href="https://github.com/SoundHacking/see_sound">see sound</a>
+  <a class="anchor" href="#see-soundhttpsgithubcomsoundhackingsee_sound">#</a>
+</h2>
+<ul>
+<li>a web app framework to see the sound in different forms</li>
+<li>real-time analysis of played audio</li>
+<li>Playing sound with html5 <a href="https://www.w3.org/TR/webaudio/">web Audio API</a></li>
+<li><a href="https://soundhacking.github.io/see_sound/">Live demo</a></li>
+</ul>
+
+
+
+
+<div class="text-center">
+  <img
+    src="/images/wave_freq.png"
+    alt=""
+    width="600"
+    decoding="async"
+  />
+</div>
+
+<h2 id="librosa_demohttpsgithubcomsoundhackinglibrosa_demo">
+  <a href="https://github.com/SoundHacking/librosa_demo">librosa_demo</a>
+  <a class="anchor" href="#librosa_demohttpsgithubcomsoundhackinglibrosa_demo">#</a>
+</h2>
+<ul>
+<li>Jupyter notebooks to showcase librosa functions</li>
+</ul>
+
+
+
+
+<div class="text-center">
+  <img
+    src="/images/librosa.png"
+    alt=""
+    width="600"
+    decoding="async"
+  />
+</div>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#interactive-sound-input">Interactive sound input</a></li>
+    <li><a href="#debug-workflow">Debug workflow</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#offline-preparation">Offline Preparation</a></li>
+    <li><a href="#real-time-processing">Real Time Processing</a></li>
+    <li><a href="#capture">Capture</a></li>
+    <li><a href="#display">Display</a></li>
+    <li><a href="#microcontrollers">Microcontrollers</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#pystreamhttpsgithubcomsoundhackingpystream"><a href="https://github.com/SoundHacking/pystream">pystream</a></a>
+      <ul>
+        <li><a href="#dependencies">dependencies</a></li>
+      </ul>
+    </li>
+    <li><a href="#see-soundhttpsgithubcomsoundhackingsee_sound"><a href="https://github.com/SoundHacking/see_sound">see sound</a></a></li>
+    <li><a href="#librosa_demohttpsgithubcomsoundhackinglibrosa_demo"><a href="https://github.com/SoundHacking/librosa_demo">librosa_demo</a></a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
